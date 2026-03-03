@@ -28,6 +28,7 @@ export default function DigiBridgedLanding() {
       <div id="nav" data-section="nav">
         <NavbarStyleApple
           brandName="DigiBridged"
+          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQFKBKtzUE9UtHpu5cFGLuPTXL/uploaded-1772519349035-3n2wjpvp.jpg"
           navItems={[
             { name: "Solutions", id: "features" },
             { name: "Results", id: "metrics" },
