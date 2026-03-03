@@ -1,60 +1,24 @@
 import type { Metadata } from "next";
-import { Halant } from "next/font/google";
 import { Inter } from "next/font/google";
-import { Manrope } from "next/font/google";
-import { DM_Sans } from "next/font/google";
 import "./globals.css";
-import { ServiceWrapper } from "@/components/ServiceWrapper";
-import Tag from "@/tag/Tag";
-
-const halant = Halant({
-  variable: "--font-halant",  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
+import "./styles/variables.css";
+import "./styles/base.css";
 
 const inter = Inter({
   variable: "--font-inter",  subsets: ["latin"],
 });
 
-const manrope = Manrope({
-  variable: "--font-manrope",  subsets: ["latin"],
-});
-
-const dmSans = DM_Sans({
-  variable: "--font-dm-sans",  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "DigiBridged | Digital Infrastructure for Local Enterprise",  description: "High-performance web infrastructure and managed digital services for traditional businesses scaling online. Proven 340% lead increase. Strategic authority positioning.",  keywords: "digital agency, web infrastructure, local business digital transformation, managed services, enterprise web solutions",  metadataBase: new URL("https://digibridged.com"),
-  alternates: {
-    canonical: "https://digibridged.com"
-  },
-  openGraph: {
-    title: "DigiBridged | Your Business, Digitally Bridged",    description: "Transform your business from offline to online with enterprise-grade digital infrastructure and expert strategy.",    url: "https://digibridged.com",    siteName: "DigiBridged",    type: "website"
-  },
-  twitter: {
-    card: "summary_large_image",    title: "DigiBridged | Digital Infrastructure for Enterprise",    description: "Bridge the gap between traditional business expertise and modern digital strategy."
-  },
-  robots: {
-    index: true,
-    follow: true
-  }
-};
+  title: "DigiBridged",  description: "Digital transformation for local enterprises"};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <ServiceWrapper>
-        <body
-          className={`${halant.variable} ${inter.variable} ${manrope.variable} ${dmSans.variable} antialiased`}
-        >
-          <Tag />
-          {children}
-        
+    <html lang="en">
+      <body className={inter.variable}>{children}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -1422,7 +1386,6 @@ export default function RootLayout({
           }}
         />
       </body>
-      </ServiceWrapper>
     </html>
   );
 }
