@@ -34,7 +34,6 @@ export default function DigiBridgedLanding() {
             { name: "About", id: "about" },
             { name: "Contact", id: "contact" }
           ]}
-          logoPosition="center"
         />
       </div>
 
