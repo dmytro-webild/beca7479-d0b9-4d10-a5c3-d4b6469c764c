@@ -54,19 +54,19 @@ export default function DigiBridgedLanding() {
           testimonials={[
             {
               name: "Marcus Chen",              handle: "CEO, Premier Retail Group",              testimonial: "DigiBridged transformed our digital presence in 90 days. We've seen a 340% increase in qualified leads.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg"
+              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=1"
             },
             {
               name: "Jennifer Walsh",              handle: "Owner, Walsh Professional Services",              testimonial: "Finally, someone who understands local business challenges. Our online conversions doubled.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg"
+              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=2"
             },
             {
               name: "David Morales",              handle: "General Manager, Hospitality Partners",              testimonial: "The infrastructure they built handles our traffic seamlessly. ROI exceeded expectations by month two.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg"
+              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=3"
             },
             {
               name: "Sarah Mitchell",              handle: "VP Operations, Tech-Forward Retail",              testimonial: "Sophisticated, strategic, results-driven. DigiBridged delivered measurable business impact.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg"
+              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=4"
             }
           ]}
           testimonialRotationInterval={6000}
