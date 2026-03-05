@@ -9,7 +9,7 @@ import SocialProofOne from "@/components/sections/socialProof/SocialProofOne";
 import MetricCardEleven from "@/components/sections/metrics/MetricCardEleven";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterCard from "@/components/sections/footer/FooterCard";
-import { Zap, Shield, Gauge, Layers, Globe, Search, TrendingUp, BarChart3, GitBranch, Linkedin, Twitter } from "lucide-react";
+import { Zap, Shield, Gauge, Layers, Globe, Search, TrendingUp, BarChart3, GitBranch, Linkedin, Twitter, Mail } from "lucide-react";
 
 export default function DigiBridgedLanding() {
   return (
@@ -49,7 +49,7 @@ export default function DigiBridgedLanding() {
           imageAlt="DigiBridged digital platform dashboard"
           mediaAnimation="slide-up"
           buttons={[
-            { text: "Schedule a Strategic Audit", href: "/book-meeting" }
+            { text: "Schedule a Strategic Audit", onClick: () => { const mailtoLink = document.createElement('a'); mailtoLink.href = 'mailto:hello@digibridged.com?subject=Schedule%20a%20Strategic%20Audit'; mailtoLink.click(); } }
           ]}
           buttonAnimation="blur-reveal"
           testimonials={[
@@ -179,7 +179,7 @@ export default function DigiBridgedLanding() {
           title="Let's Build Your Digital Advantage"
           description="Your business deserves a partner who understands both traditional enterprise needs and modern digital strategy. Schedule a strategic audit to discover how DigiBridged can unlock measurable growth."
           buttons={[
-            { text: "Schedule Audit", href: "/book-meeting" },
+            { text: "Schedule Audit", onClick: () => { const mailtoLink = document.createElement('a'); mailtoLink.href = 'mailto:hello@digibridged.com?subject=Schedule%20Audit'; mailtoLink.click(); } },
             { text: "Learn More", href: "#about" }
           ]}
           buttonAnimation="blur-reveal"
