@@ -78,7 +78,7 @@ export default function ProcessPage() {
           title="Let's Build Your Search-Optimized Platform"
           description="Discover how our strategic approach to web infrastructure and SEO can drive measurable traffic and leads for your business. Schedule a free audit today."
           buttons={[
-            { text: "Schedule Free Audit", href: "/book-meeting" },
+            { text: "Schedule Free Audit", onClick: () => { const mailtoLink = document.createElement('a'); mailtoLink.href = 'mailto:hello@digibridged.com?subject=Schedule%20Free%20Audit'; mailtoLink.click(); } },
             { text: "Back to Home", href: "/" }
           ]}
           buttonAnimation="blur-reveal"
