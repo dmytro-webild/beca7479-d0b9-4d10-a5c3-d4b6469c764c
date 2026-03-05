@@ -31,6 +31,7 @@ export default function DigiBridgedLanding() {
           navItems={[
             { name: "Solutions", id: "features" },
             { name: "Results", id: "metrics" },
+            { name: "Pricing", id: "/pricing" },
             { name: "About", id: "about" },
             { name: "Contact", id: "contact" }
           ]}
