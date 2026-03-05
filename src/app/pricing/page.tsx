@@ -45,8 +45,8 @@ export default function PricingPage() {
           plans={[
             {
               id: "website-package",              badge: "Website Package",              price: "$1,000",              subtitle: "One-time + $100/month",              buttons: [
-                { text: "Get Started", href: "/book-meeting" },
-                { text: "Schedule Consultation", href: "/book-meeting" }
+                { text: "Get Started", onClick: () => { const mailtoLink = document.createElement('a'); mailtoLink.href = 'mailto:hello@digibridged.com?subject=Get%20Started%20-%20Website%20Package'; mailtoLink.click(); } },
+                { text: "Schedule Consultation", onClick: () => { const mailtoLink = document.createElement('a'); mailtoLink.href = 'mailto:hello@digibridged.com?subject=Schedule%20Consultation'; mailtoLink.click(); } }
               ],
               features: [
                 "5 core pages",                "Mobile responsive design",                "Google Reviews integration",                "Click-to-call button",                "Basic SEO setup",                "24-hour delivery guarantee",                "Monthly hosting and maintenance",                "Small updates included"
@@ -64,7 +64,7 @@ export default function PricingPage() {
           title="Let's Build Your Professional Online Presence"
           description="Get your business online with a professional, high-performing website. Our Website Package includes everything you need to attract customers and generate leads online."
           buttons={[
-            { text: "Schedule Free Consultation", href: "/book-meeting" },
+            { text: "Schedule Free Consultation", onClick: () => { const mailtoLink = document.createElement('a'); mailtoLink.href = 'mailto:hello@digibridged.com?subject=Schedule%20Free%20Consultation'; mailtoLink.click(); } },
             { text: "Back to Home", href: "/" }
           ]}
           buttonAnimation="blur-reveal"
