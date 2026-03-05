@@ -34,22 +34,6 @@ export default function DigiBridgedLanding() {
             { name: "About", id: "about" },
             { name: "Contact", id: "contact" }
           ]}
-          logoComponent={
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style={{ stopColor: "#341f51", stopOpacity: 1 }} />
-                  <stop offset="100%" style={{ stopColor: "#6139e6", stopOpacity: 1 }} />
-                </linearGradient>
-              </defs>
-              <rect x="4" y="4" width="12" height="12" rx="2" fill="url(#gradient1)" />
-              <path d="M20 8C20 6.89543 20.8954 6 22 6C23.1046 6 24 6.89543 24 8V16C24 17.1046 23.1046 18 22 18C20.8954 18 20 17.1046 20 16V8Z" fill="url(#gradient1)" />
-              <path d="M16 12L20 16" stroke="url(#gradient1)" strokeWidth="1.5" strokeLinecap="round" />
-              <rect x="4" y="20" width="8" height="8" rx="1.5" fill="none" stroke="url(#gradient1)" strokeWidth="1.5" />
-              <circle cx="26" cy="24" r="4" fill="none" stroke="url(#gradient1)" strokeWidth="1.5" />
-              <circle cx="26" cy="24" r="2" fill="url(#gradient1)" />
-            </svg>
-          }
         />
       </div>
 
