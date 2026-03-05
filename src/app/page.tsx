@@ -156,13 +156,13 @@ export default function DigiBridgedLanding() {
           tagAnimation="blur-reveal"
           metrics={[
             {
-              id: "1",              value: "340%",              title: "Avg Lead Increase",              description: "Within 90 days of implementation",              imageSrc: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=400&fit=crop",              imageAlt: "business growth sales increase conversion optimization digital success"
+              id: "1",              value: "340%",              title: "Avg Lead Increase",              description: "Within 90 days of implementation",              imageSrc: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=400&fit=crop&_wi=1",              imageAlt: "business growth sales increase conversion optimization digital success"
             },
             {
-              id: "2",              value: "2.8x",              title: "ROI Multiplier",              description: "Average client return on investment",              imageSrc: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=400&fit=crop",              imageAlt: "lead generation customer engagement digital conversion business results"
+              id: "2",              value: "2.8x",              title: "ROI Multiplier",              description: "Average client return on investment",              imageSrc: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=400&fit=crop&_wi=2",              imageAlt: "lead generation customer engagement digital conversion business results"
             },
             {
-              id: "3",              value: "92%",              title: "Client Retention",              description: "Long-term partnership satisfaction",              imageSrc: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=400&fit=crop",              imageAlt: "customer retention business performance success metrics growth tracking"
+              id: "3",              value: "92%",              title: "Client Retention",              description: "Long-term partnership satisfaction",              imageSrc: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=400&fit=crop&_wi=3",              imageAlt: "customer retention business performance success metrics growth tracking"
             }
           ]}
           textboxLayout="default"
