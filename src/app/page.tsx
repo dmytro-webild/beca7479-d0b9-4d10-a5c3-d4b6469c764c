@@ -79,12 +79,12 @@ export default function DigiBridgedLanding() {
       <div id="about" data-section="about">
         <MediaAbout
           title="The Digital Bridge Your Business Needs"
-          description="Traditional businesses face a critical gap: offline expertise meets digital complexity. DigiBridged fills that void with bespoke web infrastructure, managed services, and the expertise that transforms uncertainty into measurable results. We don't just build websites—we engineer competitive advantage."
+          description="We build websites with a strategic focus on driving search engine visibility and lead generation. Our approach combines technical excellence with SEO best practices to ensure your site ranks high on Google and attracts qualified customers actively searching for your services. From on-page optimization to technical infrastructure, we engineer every element to drive more traffic and convert visitors into leads."
           tag="Our Approach"
           imageSrc="http://img.b2bpic.net/free-photo/blue-technology-background_1017-3288.jpg"
           imageAlt="DigiBridged infrastructure and strategy"
           buttons={[
-            { text: "Learn Our Process", href: "#features" }
+            { text: "Learn Our Process", href: "/process" }
           ]}
           useInvertedBackground={false}
         />
