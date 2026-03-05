@@ -49,7 +49,7 @@ export default function DigiBridgedLanding() {
           imageAlt="DigiBridged digital platform dashboard"
           mediaAnimation="slide-up"
           buttons={[
-            { text: "Schedule a Strategic Audit", href: "#contact" }
+            { text: "Schedule a Strategic Audit", href: "/book-meeting" }
           ]}
           buttonAnimation="blur-reveal"
           testimonials={[
@@ -179,7 +179,7 @@ export default function DigiBridgedLanding() {
           title="Let's Build Your Digital Advantage"
           description="Your business deserves a partner who understands both traditional enterprise needs and modern digital strategy. Schedule a strategic audit to discover how DigiBridged can unlock measurable growth."
           buttons={[
-            { text: "Schedule Audit", href: "mailto:hello@digibridged.com" },
+            { text: "Schedule Audit", href: "/book-meeting" },
             { text: "Learn More", href: "#about" }
           ]}
           buttonAnimation="blur-reveal"
