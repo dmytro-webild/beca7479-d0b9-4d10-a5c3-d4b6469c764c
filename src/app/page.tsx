@@ -44,7 +44,7 @@ export default function DigiBridgedLanding() {
           tag="Digital Transformation"
           tagIcon={Zap}
           tagAnimation="blur-reveal"
-          imageSrc="http://img.b2bpic.net/free-photo/luxurious-boardroom-space-within-multinational-company-used-meetings_482257-124520.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQFKBKtzUE9UtHpu5cFGLuPTXL/futuristic-ai-and-machine-learning-illus-1772729125218-f4a71618.png"
           imageAlt="DigiBridged digital platform dashboard"
           mediaAnimation="slide-up"
           buttons={[
