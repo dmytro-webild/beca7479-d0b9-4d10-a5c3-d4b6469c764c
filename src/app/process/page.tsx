@@ -42,15 +42,15 @@ export default function ProcessPage() {
           features={[
             {
               id: 1,
-              title: "Discovery & Strategy",              description: "We conduct a comprehensive audit of your market, competitors, and target audience. We analyze search opportunities, identify high-intent keywords, and develop a strategic roadmap aligned with your business goals and lead generation targets.",              imageSrc: "http://img.b2bpic.net/free-photo/business-plan_1017-30087.jpg"
+              title: "Discovery & Strategy",              description: "We conduct a comprehensive audit of your market, competitors, and target audience. We analyze search opportunities, identify high-intent keywords, and develop a strategic roadmap aligned with your business goals and lead generation targets.",              imageSrc: "http://img.b2bpic.net/free-photo/business-plan_1017-30087.jpg?_wi=2"
             },
             {
               id: 2,
-              title: "Technical SEO Foundation",              description: "We build your website on a technically optimized infrastructure that search engines love. This includes proper site structure, fast loading speeds, mobile optimization, schema markup, and clean code—all designed to maximize crawlability and indexing for better search rankings.",              imageSrc: "http://img.b2bpic.net/free-photo/blue-technology-background_1017-3288.jpg"
+              title: "Technical SEO Foundation",              description: "We build your website on a technically optimized infrastructure that search engines love. This includes proper site structure, fast loading speeds, mobile optimization, schema markup, and clean code—all designed to maximize crawlability and indexing for better search rankings.",              imageSrc: "http://img.b2bpic.net/free-photo/blue-technology-background_1017-3288.jpg?_wi=2"
             },
             {
               id: 3,
-              title: "On-Page Optimization",              description: "We strategically optimize every page with target keywords, compelling meta tags, header structure, and high-quality content designed to rank for search queries your potential customers are actually using. Each page is crafted to drive both search visibility and user conversions.",              imageSrc: "http://img.b2bpic.net/free-photo/business-teamwork-meeting_1421-1269.jpg"
+              title: "On-Page Optimization",              description: "We strategically optimize every page with target keywords, compelling meta tags, header structure, and high-quality content designed to rank for search queries your potential customers are actually using. Each page is crafted to drive both search visibility and user conversions.",              imageSrc: "http://img.b2bpic.net/free-photo/business-teamwork-meeting_1421-1269.jpg?_wi=2"
             },
             {
               id: 4,
@@ -58,11 +58,11 @@ export default function ProcessPage() {
             },
             {
               id: 5,
-              title: "Analytics & Performance Tracking",              description: "We establish comprehensive tracking and reporting to monitor search rankings, organic traffic, lead quality, and ROI. You'll have complete visibility into performance metrics and monthly reports showing how your digital infrastructure is driving business results.",              imageSrc: "http://img.b2bpic.net/free-photo/busy-multicultural-diverse-employees-analysing-annual-financial-statistics-sitting-desk-front-laptop-holding-documents-searching-business-solutions-team-businesspeople-working-company_482257-13550.jpg"
+              title: "Analytics & Performance Tracking",              description: "We establish comprehensive tracking and reporting to monitor search rankings, organic traffic, lead quality, and ROI. You'll have complete visibility into performance metrics and monthly reports showing how your digital infrastructure is driving business results.",              imageSrc: "http://img.b2bpic.net/free-photo/busy-multicultural-diverse-employees-analysing-annual-financial-statistics-sitting-desk-front-laptop-holding-documents-searching-business-solutions-team-businesspeople-working-company_482257-13550.jpg?_wi=2"
             },
             {
               id: 6,
-              title: "Continuous Optimization",              description: "We don't just launch and leave. We continuously monitor performance, test improvements, refine keyword strategies, and optimize based on data. Your website evolves with market trends and search algorithm updates to maintain and grow your visibility and lead generation.",              imageSrc: "http://img.b2bpic.net/free-photo/corporate-business_1017-21551.jpg"
+              title: "Continuous Optimization",              description: "We don't just launch and leave. We continuously monitor performance, test improvements, refine keyword strategies, and optimize based on data. Your website evolves with market trends and search algorithm updates to maintain and grow your visibility and lead generation.",              imageSrc: "http://img.b2bpic.net/free-photo/corporate-business_1017-21551.jpg?_wi=2"
             }
           ]}
           textboxLayout="default"

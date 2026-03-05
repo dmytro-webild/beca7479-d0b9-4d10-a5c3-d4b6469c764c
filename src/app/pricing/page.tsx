@@ -44,19 +44,19 @@ export default function PricingPage() {
           useInvertedBackground={false}
           plans={[
             {
-              id: "starter",              title: "Starter",              price: "$2,999",              period: "/month",              imageSrc: "http://img.b2bpic.net/free-photo/business-plan_1017-30087.jpg",              imageAlt: "Starter plan",              button: { text: "Get Started", href: "mailto:hello@digibridged.com" },
+              id: "starter",              title: "Starter",              price: "$2,999",              period: "/month",              imageSrc: "http://img.b2bpic.net/free-photo/business-plan_1017-30087.jpg?_wi=1",              imageAlt: "Starter plan",              button: { text: "Get Started", href: "mailto:hello@digibridged.com" },
               features: [
                 "High-performance web infrastructure",                "SEO optimization foundation",                "Basic analytics setup",                "Email support",                "Monthly check-ins"
               ]
             },
             {
-              id: "professional",              title: "Professional",              price: "$5,999",              period: "/month",              imageSrc: "http://img.b2bpic.net/free-photo/business-teamwork-meeting_1421-1269.jpg",              imageAlt: "Professional plan",              button: { text: "Get Started", href: "mailto:hello@digibridged.com" },
+              id: "professional",              title: "Professional",              price: "$5,999",              period: "/month",              imageSrc: "http://img.b2bpic.net/free-photo/business-teamwork-meeting_1421-1269.jpg?_wi=1",              imageAlt: "Professional plan",              button: { text: "Get Started", href: "mailto:hello@digibridged.com" },
               features: [
                 "Everything in Starter",                "Performance marketing management",                "Advanced analytics & reporting",                "Priority support",                "Weekly optimization calls",                "Paid advertising strategy"
               ]
             },
             {
-              id: "enterprise",              title: "Enterprise",              price: "Custom",              period: "/month",              imageSrc: "http://img.b2bpic.net/free-photo/corporate-business_1017-21551.jpg",              imageAlt: "Enterprise plan",              button: { text: "Schedule Consultation", href: "mailto:hello@digibridged.com" },
+              id: "enterprise",              title: "Enterprise",              price: "Custom",              period: "/month",              imageSrc: "http://img.b2bpic.net/free-photo/corporate-business_1017-21551.jpg?_wi=1",              imageAlt: "Enterprise plan",              button: { text: "Schedule Consultation", href: "mailto:hello@digibridged.com" },
               features: [
                 "Everything in Professional",                "Custom infrastructure design",                "Dedicated account manager",                "24/7 priority support",                "Full integration & automation",                "Strategic authority positioning",                "Quarterly business reviews"
               ]

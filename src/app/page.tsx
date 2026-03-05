@@ -81,7 +81,7 @@ export default function DigiBridgedLanding() {
           title="The Digital Bridge Your Business Needs"
           description="We build websites with a strategic focus on driving search engine visibility and lead generation. Our approach combines technical excellence with SEO best practices to ensure your site ranks high on Google and attracts qualified customers actively searching for your services. From on-page optimization to technical infrastructure, we engineer every element to drive more traffic and convert visitors into leads."
           tag="Our Approach"
-          imageSrc="http://img.b2bpic.net/free-photo/blue-technology-background_1017-3288.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/blue-technology-background_1017-3288.jpg?_wi=1"
           imageAlt="DigiBridged infrastructure and strategy"
           buttons={[
             { text: "Learn Our Process", href: "/process" }
@@ -159,7 +159,7 @@ export default function DigiBridgedLanding() {
               id: "1",              value: "340%",              title: "Avg Lead Increase",              description: "Within 90 days of implementation",              imageSrc: "http://img.b2bpic.net/free-photo/african-man-black-suit_1157-45555.jpg",              imageAlt: "business growth sales increase conversion optimization digital success"
             },
             {
-              id: "2",              value: "2.8x",              title: "ROI Multiplier",              description: "Average client return on investment",              imageSrc: "http://img.b2bpic.net/free-photo/busy-multicultural-diverse-employees-analysing-annual-financial-statistics-sitting-desk-front-laptop-holding-documents-searching-business-solutions-team-businesspeople-working-company_482257-13550.jpg",              imageAlt: "lead generation customer engagement digital conversion business results"
+              id: "2",              value: "2.8x",              title: "ROI Multiplier",              description: "Average client return on investment",              imageSrc: "http://img.b2bpic.net/free-photo/busy-multicultural-diverse-employees-analysing-annual-financial-statistics-sitting-desk-front-laptop-holding-documents-searching-business-solutions-team-businesspeople-working-company_482257-13550.jpg?_wi=1",              imageAlt: "lead generation customer engagement digital conversion business results"
             },
             {
               id: "3",              value: "92%",              title: "Client Retention",              description: "Long-term partnership satisfaction",              imageSrc: "http://img.b2bpic.net/free-photo/business-teamwork-meeting-concept_1421-631.jpg",              imageAlt: "customer retention business performance success metrics growth tracking"
