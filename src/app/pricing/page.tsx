@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from "@/components/navbar/NavbarStyleApple/NavbarStyleApple";
-import PricingCardNine from "@/components/sections/pricing/PricingCardNine";
+import PricingCardTwo from "@/components/sections/pricing/PricingCardTwo";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterCard from "@/components/sections/footer/FooterCard";
 import { Zap, Linkedin, Twitter } from "lucide-react";
@@ -35,30 +35,21 @@ export default function PricingPage() {
       </div>
 
       <div id="pricing" data-section="pricing" className="pt-20">
-        <PricingCardNine
-          title="Transparent, Scalable Pricing"
-          description="Choose the plan that fits your business needs. All plans include core infrastructure and support."
-          tag="Our Plans"
+        <PricingCardTwo
+          title="Simple, Transparent Pricing"
+          description="One comprehensive website package designed to drive results for your business."
+          tag="Pricing"
           textboxLayout="default"
           animationType="slide-up"
           useInvertedBackground={false}
           plans={[
             {
-              id: "starter",              title: "Starter",              price: "$2,999",              period: "/month",              imageSrc: "http://img.b2bpic.net/free-photo/business-plan_1017-30087.jpg?_wi=1",              imageAlt: "Starter plan",              button: { text: "Get Started", href: "mailto:hello@digibridged.com" },
+              id: "website-package",              badge: "Website Package",              price: "$1,000",              subtitle: "One-time + $100/month",              buttons: [
+                { text: "Get Started", href: "mailto:hello@digibridged.com" },
+                { text: "Schedule Consultation", href: "mailto:hello@digibridged.com" }
+              ],
               features: [
-                "High-performance web infrastructure",                "SEO optimization foundation",                "Basic analytics setup",                "Email support",                "Monthly check-ins"
-              ]
-            },
-            {
-              id: "professional",              title: "Professional",              price: "$5,999",              period: "/month",              imageSrc: "http://img.b2bpic.net/free-photo/business-teamwork-meeting_1421-1269.jpg?_wi=1",              imageAlt: "Professional plan",              button: { text: "Get Started", href: "mailto:hello@digibridged.com" },
-              features: [
-                "Everything in Starter",                "Performance marketing management",                "Advanced analytics & reporting",                "Priority support",                "Weekly optimization calls",                "Paid advertising strategy"
-              ]
-            },
-            {
-              id: "enterprise",              title: "Enterprise",              price: "Custom",              period: "/month",              imageSrc: "http://img.b2bpic.net/free-photo/corporate-business_1017-21551.jpg?_wi=1",              imageAlt: "Enterprise plan",              button: { text: "Schedule Consultation", href: "mailto:hello@digibridged.com" },
-              features: [
-                "Everything in Professional",                "Custom infrastructure design",                "Dedicated account manager",                "24/7 priority support",                "Full integration & automation",                "Strategic authority positioning",                "Quarterly business reviews"
+                "5 core pages",                "Mobile responsive design",                "Google Reviews integration",                "Click-to-call button",                "Basic SEO setup",                "24-hour delivery guarantee",                "Monthly hosting and maintenance",                "Small updates included"
               ]
             }
           ]}
@@ -70,8 +61,8 @@ export default function PricingPage() {
           tag="Ready to Get Started?"
           tagIcon={Zap}
           tagAnimation="blur-reveal"
-          title="Let's Discuss Your Perfect Plan"
-          description="Not sure which plan is right for you? Schedule a free consultation with our team to discuss your specific needs and find the ideal solution for your business."
+          title="Let's Build Your Professional Online Presence"
+          description="Get your business online with a professional, high-performing website. Our Website Package includes everything you need to attract customers and generate leads online."
           buttons={[
             { text: "Schedule Free Consultation", href: "mailto:hello@digibridged.com" },
             { text: "Back to Home", href: "/" }
