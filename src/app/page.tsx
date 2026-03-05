@@ -55,19 +55,19 @@ export default function DigiBridgedLanding() {
           testimonials={[
             {
               name: "Marcus Chen",              handle: "CEO, Premier Retail Group",              testimonial: "DigiBridged transformed our digital presence in 90 days. We've seen a 340% increase in qualified leads.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=1"
+              imageSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
             },
             {
               name: "Jennifer Walsh",              handle: "Owner, Walsh Professional Services",              testimonial: "Finally, someone who understands local business challenges. Our online conversions doubled.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=2"
+              imageSrc: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop"
             },
             {
               name: "David Morales",              handle: "General Manager, Hospitality Partners",              testimonial: "The infrastructure they built handles our traffic seamlessly. ROI exceeded expectations by month two.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=3"
+              imageSrc: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop"
             },
             {
               name: "Sarah Mitchell",              handle: "VP Operations, Tech-Forward Retail",              testimonial: "Sophisticated, strategic, results-driven. DigiBridged delivered measurable business impact.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=4"
+              imageSrc: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop"
             }
           ]}
           testimonialRotationInterval={6000}
@@ -156,13 +156,13 @@ export default function DigiBridgedLanding() {
           tagAnimation="blur-reveal"
           metrics={[
             {
-              id: "1",              value: "340%",              title: "Avg Lead Increase",              description: "Within 90 days of implementation",              imageSrc: "http://img.b2bpic.net/free-photo/african-man-black-suit_1157-45555.jpg",              imageAlt: "business growth sales increase conversion optimization digital success"
+              id: "1",              value: "340%",              title: "Avg Lead Increase",              description: "Within 90 days of implementation",              imageSrc: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=400&fit=crop",              imageAlt: "business growth sales increase conversion optimization digital success"
             },
             {
-              id: "2",              value: "2.8x",              title: "ROI Multiplier",              description: "Average client return on investment",              imageSrc: "http://img.b2bpic.net/free-photo/busy-multicultural-diverse-employees-analysing-annual-financial-statistics-sitting-desk-front-laptop-holding-documents-searching-business-solutions-team-businesspeople-working-company_482257-13550.jpg?_wi=1",              imageAlt: "lead generation customer engagement digital conversion business results"
+              id: "2",              value: "2.8x",              title: "ROI Multiplier",              description: "Average client return on investment",              imageSrc: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=400&fit=crop",              imageAlt: "lead generation customer engagement digital conversion business results"
             },
             {
-              id: "3",              value: "92%",              title: "Client Retention",              description: "Long-term partnership satisfaction",              imageSrc: "http://img.b2bpic.net/free-photo/business-teamwork-meeting-concept_1421-631.jpg",              imageAlt: "customer retention business performance success metrics growth tracking"
+              id: "3",              value: "92%",              title: "Client Retention",              description: "Long-term partnership satisfaction",              imageSrc: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=400&fit=crop",              imageAlt: "customer retention business performance success metrics growth tracking"
             }
           ]}
           textboxLayout="default"
