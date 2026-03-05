@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "DigiBridged",  description: "Digital transformation for local enterprises"};
+  title: "DigiBridged",  description: "Your Business, Digitally Bridged"};
 
 export default function RootLayout({
   children,
